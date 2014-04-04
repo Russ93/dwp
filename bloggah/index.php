@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-$conn = new PDO('mysql:host=localhost;dbname=twitter;port=8889', 'root', 'root');
+$conn = new PDO('mysql:host=localhost;dbname=twitter;port=3306', 'root', 'root');
 
 //$_GET['call'] is for calls to the server insted of getting information
 // this is so no header information is passed through
